@@ -1,14 +1,17 @@
 body {
-  background-color: gray;
+  background-color: gainsboro;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
 }
 
 .container {
   background-color: white;
   line-height: 120%;
   width: 21cm;
+  padding: 10px;
 }
 
 img {
@@ -38,13 +41,17 @@ img {
   margin: 20px;
 }
 
+.header__summary {
+  display: flex;
+  justify-content: center;
+}
+
 .header__summary ul {
   list-style: disc;
   display: flex;
   flex-direction: column;
   align-items: left;
   margin-bottom: 30px;
-  margin-left: 300px;
 }
 
 .body__summary ul {
@@ -68,4 +75,18 @@ img {
 .colour {
   color: blue;
   font-weight: bold;
+}
+
+.summary__videos {
+  display: flex;
+  flex-direction: row;
+}
+
+iframe {
+  width: 30%;
+  margin: 10px;
+}
+
+.list-margin {
+  margin-bottom: 20px;
 }
